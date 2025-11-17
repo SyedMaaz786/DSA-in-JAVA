@@ -62,6 +62,9 @@ public class JavaBasics4 {
         // System.out.println();
 
 
+
+
+
         // int counter = 1;                //do while loop
         // do{                             //In do while same logic first do then condition
         //     System.out.println("Heyy");
@@ -89,27 +92,27 @@ public class JavaBasics4 {
 
 
 
-        Scanner sc = new Scanner(System.in);  //Prime number or not
-        int n = sc.nextInt();
+        // Scanner sc = new Scanner(System.in);  //Prime number or not
+        // int n = sc.nextInt();
 
-        boolean isPrime = true;
+        // boolean isPrime = true;
 
-        if (n<=1){
-            isPrime = false;
-        }
+        // if (n<=1){
+        //     isPrime = false;
+        // }
 
-        for (int i=2; i*i<=n; i++){
-            if (n%i==0){
-                isPrime = false;
-            }
-        }
+        // for (int i=2; i*i<=n; i++){
+        //     if (n%i==0){
+        //         isPrime = false;
+        //     }
+        // }
 
-        if (isPrime){
-            System.out.println(n + " is a prime number");
-        }
-        else{
-            System.out.println(n + " is NOT a prime number");
-        }
+        // if (isPrime){
+        //     System.out.println(n + " is a prime number");
+        // }
+        // else{
+        //     System.out.println(n + " is NOT a prime number");
+        // }
 
 
 
